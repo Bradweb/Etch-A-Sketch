@@ -3,30 +3,8 @@
 
 <head>
 	<title>16x16 Grid of Square Divs</title>
-	<style>
-		.square {
-			width: 30px;
-			height: 30px;
-			background-color: white;
-			border: 1px solid black;
-			display: inline-block;
-			margin: 0;
-		}
-
-		#container {
-			display: grid;
-			grid-template-columns: repeat(16, 30px);
-			grid-template-rows: repeat(16, 30px);
-			gap: 0px;
-			width: 481px;
-			/* 16 columns * (30px + 1px gap) - 1px gap */
-			height: 481px;
-			/* 16 rows * (30px + 1px gap) - 1px gap */
-			border: 0px solid black;
-
-
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
 </head>
 
 <body>
@@ -123,6 +101,7 @@
 
 
 	</script>
+	  <script src="script.js"></script>
 </body>
 
 </html>
